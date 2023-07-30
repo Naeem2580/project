@@ -1,0 +1,127 @@
+/* jon header */
+.jon-header{
+    font-size: 25px;
+    font-weight: 500px;
+}
+img{
+    max-width: 100%;
+}
+
+/*header section */
+.header-section{
+    background: url(img/jorg-angeli-CAMwIxYk5Xg-unsplash.jpg) no-repeat center center;
+    padding: 200px 0;
+     position: relative;
+}
+.header-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:
+}
+.jon-menu{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header-item h4{
+margin-bottom: 35px;
+}
+.header-item h1{
+margin-bottom: 50px;
+font-size: 47px;
+}
+.header-item .btn{
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header-section .form-control{
+    padding: 18px 20px;
+}
+.about-section{
+    background: rgb(203, 195, 195);
+}
+.about-section-text{
+    margin-top: 120px;
+}
+.about-section-text .lead{
+    font-size: 20px;
+    line: height 2.6em; ;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.3px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text-sec{
+    width: 60%;
+    padding:25px;
+}
+
+.left-img-sec img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -70px;
+}
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a ::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg{
+    background: rgb(203, 195, 195);;
+}
+.pricing-item{
+    background-color:#fff ;
+    padding: 30px;
+    box-shadow: 2.5px 4.3px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+
+}
+.text-pricing-button a{
+    border-color: #657be0;
+    border-width: 2px;
+    color:#657be0 ;
+    padding: 14px 30px;
+    font-size: 18px;
+    box-shadow: 2.5px 4.3px 30px 0 rgba(64,87,191,0.1); 
+}
+
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card img{
+    width: 150px ;
+    height: auto ;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+
